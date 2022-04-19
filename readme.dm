@@ -1,3 +1,5 @@
 On root folder run:
 
-`` npm i`` then ```npm start``
+npm install
+then 
+npm start
