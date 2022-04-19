@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background-image: url("https://cdn.pokemonmasters-game.com/stylesheets/images/6KRe3n2cScxsKvvaUuKLg_Gl4XIAoMKucdX9T11I95i.png");
+}
+
+header {
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    outline: none;
+}
+
+.container {
+    height: calc(100vh - 95px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #bee9e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+}
+
+.card::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+
+.card-grass::after {
+    background-color: green;
+}
+
+.card-fire::after {
+    background-color: red;
+}
+
+.card:hover {
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #8cbec9;
+    cursor: pointer;
+}

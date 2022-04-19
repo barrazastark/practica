@@ -1,0 +1,29 @@
+pilares del frontend: HTML, CSS, Javscript
+html: lenguaje de marcado - langauge markup
+doctype: html5
+css: Cascade style sheet - lenaguaje de presentacion
+javascript: lenguaje de programacion 
+
+
+---- TEMAS ----
+conectar javascript a nuestra pagina
+libreia:
+Node:
+npm: 
+webpack
+
+--- TEMAS ---
+- CSS Syntax
+- Selectores
+- Box Model
+- Crear layout
+- HTML Semantico
+- Specificity
+
+--- TEMAS ---
+- TERMINA layout
+- CSS Cascada
+- classes
+- flex
+- pseudo elementos
+- pseudo classes
