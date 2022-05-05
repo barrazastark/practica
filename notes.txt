@@ -27,3 +27,16 @@ webpack
 - flex
 - pseudo elementos
 - pseudo classes
+
+preguntas de entrevistas:
+
+Specificity
+
+
+tipos de de js
+coercion
+hoisting
+exectution context y scope
+execution stack
+var vs let vs const
+== vs ===

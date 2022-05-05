@@ -7,8 +7,6 @@ pokemon = "Charizar";
 const age = 18;
 
 
-//console.log(pokemon, age);
-
 // Template string literal
 
 //const greet = "Hola me llamo " + pokemon + " y tengo "+ age +" años";
@@ -18,3 +16,9 @@ const age = 18;
 const greet = `Hola me llamo ${pokemon} y tengo ${age} años.`;
 
 //console.log(greet);
+
+// ES6+ Way to write a function
+// Arrow function
+const sayHelloV2 = (pokemonName, age = 8) => {
+    return `Hola soy ${pokemonName} y tengo ${age} años`;
+}
