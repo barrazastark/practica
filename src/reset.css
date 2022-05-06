@@ -54,6 +54,10 @@ input {
     background-color: red;
 }
 
+.card-water::after {
+    background-color: blue;
+}
+
 .card:hover {
     font-size: 20px;
     font-weight: bold;
