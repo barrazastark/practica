@@ -40,7 +40,6 @@ function handleClick(event) {
         <p>${pokemon.name}</p>
         <p>${pokemon.description || 'Default'}</p>
     `;
-    console.log(modal);
 }
 
 function renderPokemons() {

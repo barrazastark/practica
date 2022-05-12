@@ -30,6 +30,11 @@ webpack
 
 preguntas de entrevistas:
 
+what is doctype
+benefits of html5
+html5 tags ?
+
+box model
 Specificity
 
 

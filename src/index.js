@@ -6,6 +6,10 @@ import "./reset.css";
 //import "./functions";
 //import "./arrayAndLoops";
 import "./DOMManipulation";
+//import "./primitivesVsReferences";
+ import "./arrayMethods";
+//import "./classes";
+
 /*
     JS: client-side, dinamicamente tipado, debilmente tipado,
         asincrono, single-thread, non-blocking, prototype based programming language
