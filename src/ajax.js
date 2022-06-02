@@ -19,13 +19,11 @@ const ENDPOINT = "https://pokeapi.co/api/v2/pokemon";
 
 fetch(ENDPOINT)
     .then((res) => {
-        return "String - x"
+        return res.json()
     })
     .then((data) => {
 
-        fetch(data[0])
-            .then()
-            .then();
+        console.log(data);
 
     });
    
