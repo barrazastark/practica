@@ -44,7 +44,7 @@ var charmanderKey = Symbol("LLAVE SECRETA");
 // truthy values y falsy values
 /*
     Falsy values: "", 0, null, undefined, NaN
-    Truthy values: cualquiera que no sea falsy value
+    Truthy values: cualquiera que no sea falsy value, [], {}
 */
 
 

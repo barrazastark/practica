@@ -2,9 +2,9 @@
 
 let age = 18;
 const name = "Jose";
-let age2 = age;
+let age2 = age; // 18
 
-age = 25;
+age = 25; // 25
 
 console.log('Numbers let', age, age2);
 
@@ -19,7 +19,10 @@ const person = {
 // age = 20;
 // person.age = 20; // esto es permitido
 
-const person2 = person;
+const person2 = person; // está mal
+const person = {
+    ...person,
+}
 
 person.age = 20;
 console.log(person.age);
@@ -77,7 +80,7 @@ const bigObject = {
 }
 
 /*const bigArrayOfValues = [
-     50, 10, 30, ...values
+     50, 10, 30, 1, 10
 ];
 
 // Rest parameters
@@ -96,7 +99,7 @@ console.log( sum(1,2,3,4,5,6,7) );*/
 
 //console.log( bigObject[key] );
 
-const keys = Object.keys(bigObject);
+const keys = Object.keys(bigObject); // [key1, key2, key3];
 
 for(let i = 0; i < keys.length; i++) {
     const currentKey = keys[i];

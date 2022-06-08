@@ -31,7 +31,7 @@ const fibMemoized = memo(function fib(n) {
 });
 
 const r1 = fibMemoized(10); // 55 , se calculó
-const r2 = fibMemoized(11); // 
+const r2 = fibMemoized(11); // calcular 
 const r3 = fibMemoized(11); // 
 
 

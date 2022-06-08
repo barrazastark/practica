@@ -1,8 +1,8 @@
 
-console.log(P);
+console.log(P); // undefined
 var P = "P";
 
-X();
+X(); //  si funciona
 
 function X() {
     //console.log(y)

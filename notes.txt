@@ -7,9 +7,9 @@ javascript: lenguaje de programacion
 
 ---- TEMAS ----
 conectar javascript a nuestra pagina
-libreia:
+libreia: son modulos de js que la gente crea y los publican a repos de npm
 Node:
-npm: 
+npm: node package management, npm init, npm install,
 webpack
 
 --- TEMAS ---
